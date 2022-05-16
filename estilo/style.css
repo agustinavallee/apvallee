@@ -30,9 +30,12 @@
     font-family: 'Gugi', cursive;
     font-size: 1.5rem;
     color:black;
+    transition: all 1s;
 }
+
+  
 .enlace:hover{ /* cambio de colora cuando el mouse pasa por encima */
-    color: white;
+    font-size: 1.7rem;
     
   }
 section{ /* configuracion de toda la seccion*/
