@@ -1,0 +1,87 @@
+ 
+  
+  *{
+    margin:0;
+}
+#cabecera { /* estilo de cabecera*/
+    background-color: white;
+    position:relative;
+    width: 100%;
+    text-align: center;
+}
+#cabecera img{ /*estilo de la imagen de la cabecera*/
+    border-radius: 100px;
+    margin: auto;
+    padding: 5px;
+}
+#navbar{ /* barra de navegacion*/
+    background-color: #ffa066;
+    position:relative;
+    width: 100%;
+}
+#navbar ul{ /* cambio de distribucion de la barra*/
+    display:flex;
+    justify-content: space-around;
+    padding: 4%;
+    list-style-type: none;
+} 
+.enlace{ /* estilo de letra de la barra*/
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    font-size: 1.5rem;
+    color:black;
+}
+.enlace:hover{ /* cambio de colora cuando el mouse pasa por encima */
+    color: white;
+    
+  }
+section{ /* configuracion de toda la seccion*/
+    margin:0%;
+    background-color: #ffbf98;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.presentacion{ /* configuracion de un div*/
+    box-sizing: content-box;
+    font-family: 'Pompiere', cursive;
+    
+    
+
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.presentacion h2 { /* configuracion de letra del titulo dentro del div*/
+    font-family: 'Skranji', cursive;
+    
+
+}
+.ultimostrabajos{ /* configuracion de un div*/
+    font-family: 'Skranji', cursive;
+    font-size: 2rem;
+    position:relative;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.ultimostrabajos img{
+    padding: 20px; 
+}
+.pie{ /* configuracion del pie de pagina*/
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 15px;
+    font-family: 'Pompiere', cursive ;
+    font-size: 1rem;
+    background-color: #ffa066;
+}
+
