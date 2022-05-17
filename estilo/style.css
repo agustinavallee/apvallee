@@ -1,6 +1,13 @@
- * {
+
+* {
      margin: 0;
  }
+ @media only screen and (max-width:600px) {
+  nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
  #cabecera {
      /* estilo de cabecera*/
